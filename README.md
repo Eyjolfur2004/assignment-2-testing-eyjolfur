@@ -1,3 +1,11 @@
+## Athugasemdir um útfærslu
+
+Verkefnið var unnið í skrefum. Fyrst voru skrifuð einingapróf fyrir öll föll í `dateUtils.ts` með áherslu á jaðartilvik, villumeðhöndlun og tímaháð föll með fake timers. Þessi próf voru síðan notuð sem öryggisnet við að bæta við TypeScript týpum og að lokum þegar skipt var úr `moment` yfir í `date-fns`.
+
+Við færsluna var sérstaklega passað að hegðun breyttist ekki (til dæmis að dagsetningabil væru áfram exclusive). Öll próf standast án breytinga eftir færsluna, sem sýnir að prófin skilgreina hegðun kerfisins.
+
+
+
 # Assignment 2 - Unit Testing & Library Migration
 
 Learn unit testing best practices including mocking, async testing, and error handling. Then practice safe library migration using your tests as a safety net.
